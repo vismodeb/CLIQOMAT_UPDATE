@@ -1,0 +1,79 @@
+@media all and (min-width: 1700px) {
+	/* .container {
+		max-width: 1640px;
+			width: 100%;
+		} */
+	}
+@media all and (max-width: 1266px) {
+	.main_manu ul li a {
+		font-size: 14px;
+		margin-right: 25px;
+	}
+
+}
+
+@media all and (max-width: 1266px) {
+	.main_manu ul li a {
+		font-size: 14px;
+		margin-right: 25px;
+	}
+
+	/* kontakt banner */
+	.kontakt_banner {
+    padding-top: 95px;
+    padding-bottom: 50px;
+	}
+}
+@media all and (max-width: 991px) {
+	.button_container {
+	    top: 30px;
+	    right: 40px;
+	}
+
+	/* kontakt banner */
+	.kontakt_img img {
+    max-width: 260px;
+    margin: 25px;
+	}
+	.kontakt_content h2 {
+    font-size: 47px;
+    line-height: 59px;
+	}
+	.kontakt_content::after {
+    left: 43%;
+	}
+	.kontakt_content {
+    margin-left: 86px;
+	}
+}
+@media all and (max-width: 767px) {
+	/* kontakt banner */
+	.kontakt_content {
+    flex-direction: column;
+    gap: 25px;
+	}
+	.kontakt_content::after{
+		display: none;
+	}
+	.kontakt_content {
+    margin-left: 0;
+	}
+	.kontakt_content h2 {
+    font-size: 40px;
+    line-height: 59px;
+	}
+
+}
+@media all and (max-width: 575px){
+	.eis_socil ul {
+    margin-top: 40px;
+    justify-content: center;
+	}
+	.kontakt_content_bottom {
+    padding: 36px 0 50px 0;
+	}
+	.kontakt_img img {
+    max-width: 220px;
+    margin: 18px;
+	}
+}
